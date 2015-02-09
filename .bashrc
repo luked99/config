@@ -36,3 +36,7 @@ else
     start_agent;
 fi
 source /etc/profile.d/bash_completion.sh
+
+tmux() {
+    TERM=xterm-256color /usr/bin/tmux -2 $*
+}
