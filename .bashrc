@@ -52,6 +52,7 @@ source /etc/profile.d/bash_completion.sh
 
 tmux() {
     TERM=xterm-256color /usr/bin/tmux -2 $*
+}
 
 function telnet {
    xtitle "telnet $*"
